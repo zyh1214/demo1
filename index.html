@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>柏瑞网页</title>
+		<link rel="stylesheet" type="text/css" href="./css/baiRuiPublic.css" />
+		<link rel="stylesheet" type="text/css" href="./css/first.css" />
+		<link rel="stylesheet" href="./css/swiper-bundle.min.css" />
+		<script src="./js/jQuery.js"></script>
+	</head>
+	<body>
+		<div id="header">
+			<!-- 头部start -->
+			<header>
+			</header>
+			<!-- 头部end -->
+			<div class="swiper mySwiper">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<img src="img/indexImgs/banner.png" class="ding"/>
+						<div class="abctext">
+							<p class="abc">ABC计划</p>
+							<div class="yuanze">
+								<p> 采用“28原则”方式进行人才培养方案设置</p>
+								<p>入学之日均可签订就业保证协议</p>
+								<p>可通过成考、网络教育、统招等方式解决学历</p>
+							</div>
+							<div class="l">
+								<p><a href="#">查看详情</a></p>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide"><img src="./img/aboutUs/roud.png" alt=""></div>
+					<div class="swiper-slide"><img src="./img/campus/taian1.png" alt=""></div>
+					<div class="swiper-slide"><img src="./img/aboutUs/aerial.png" alt=""></div>
+					<div class="swiper-slide"><img src="./img/aboutUs/environment.png" alt="" /></div>
+				</div>
+				<div class="swiper-pagination"></div>
+			</div>
+
+		</div>
+		<div id="bodyer">
+			<div id="youshi">
+				<span>我们的优势</span>
+				<p>打造一个符合企业需求的高素质高技能的人才</p>
+				<img src="img/5e382762e066430b5e668a54065b37f.png" />
+			</div>
+			<div id="xiangce">
+				<div class="q">
+					<img src="./img/indexImgs/asideLeft.png" />
+					<div class="q_show">
+						<span>最符合企业需求的课程体系</span>
+						<div class="see">
+							<span><a href="#">点击查看</a></span>
+						</div>
+					</div>
+				</div>
+				<div class="z">
+					<div class="z_1">
+						<img src="./img/indexImgs/chuangyegu.png" />
+						<div class="z_y">
+							<span>一个梦想开始的地方——创新谷</span>
+						</div>
+					</div>
+					<div class="z_1">
+						<img src="./img/indexImgs/rencaipeiyang.png" />
+						<div class="z_y">
+							<span>人才培养</span>
+						</div>
+					</div>
+				</div>
+				<div class="z">
+					<div class="z_1">
+						<img src="./img/indexImgs/cooperation.png" />
+						<div class="z_y">
+							<span>合作院校</span>
+						</div>
+					</div>
+					<div class="z_1">
+						<img src="./img/indexImgs/internetadd.png" />
+						<div class="z_y">
+							<span>“互联网+”时代</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="jihua">
+				<div class="abcjihua">
+					<div>
+						<span class="one">ABC</span>
+						<span class="two">计划</span>
+					</div>
+					<img src="img/5e382762e066430b5e668a54065b37f.png" />
+					<p>采用“28原则”方式进行人才培养方案设置</p>
+				</div>
+				<div id="text">
+					<p>
+						方案均按两条线进行：技能线——以互联网技术为基础依托，围绕互联网行业需求，开展技术能力培养；素质线——以基本礼仪为基础以培养价值观和态度为目标，</p>
+					<p>通过日常管理纠正修订做事做人的行为动作为重点，打造一个符合企业需求的高素质高技能的人才。入学之日均可签订就业保证协议；可通过成考、网络教育、统招等方式解决学历。</p>
+				</div>
+				<div class="ABCabc">
+					<div class="a">
+						<div class="aimg">
+							<img src="img/indexImgs/A.png" />
+						</div>
+						<p>就业直通：针对高中、<br />
+							中专毕业生，推出“1.5年制”实训教育；
+						</p>
+					</div>
+					<div class="a">
+						<div class="aimg">
+							<img src="img/indexImgs/B.png" />
+						</div>
+						<p>大学生实训，<br />
+							推出“半年制”强化技术实训教育；
+						</p>
+					</div>
+					<div class="a">
+						<div class="aimg">
+							<img src="img/indexImgs/C.png" />
+						</div>
+						<p class="kuang">校企联合：针对中高职院校，推出<br />
+							“2+1.5”或“2+0.5”合作模式，校企真正深度融合。
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- 脚部start -->
+		<footer>
+
+		</footer>
+		<!-- 脚部end -->
+		<script>
+			$(function() {
+				// alert('nia')
+				$('header').load('./header.html');
+			});
+			$(function() {
+				// alert('nia')
+				$('footer').load('./footer.html');
+			});
+
+			$(function() {
+				$('.q').mouseover(function() {
+					$(this).children('.q_show').stop().fadeIn();
+
+				});
+				$('.q').mouseleave(function() {
+					$(this).children('.q_show').stop().fadeOut();
+				});
+				s
+			});
+			$(function() {
+				$('.z_1').mouseover(function() {
+					$(this).children('.z_y').stop().fadeIn();
+
+				});
+				$('.z_1').mouseleave(function() {
+					$(this).children('.z_y').stop().fadeOut();
+				});
+			});
+		</script>
+		
+	</body>
+</html>
+.stop()

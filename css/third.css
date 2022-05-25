@@ -1,0 +1,145 @@
+* {
+	margin: 0 auto;
+	padding: 0;
+	list-style: none;
+
+}
+
+a {
+	text-decoration: none;
+}
+
+#three_box {
+	width: 1600px;
+	border-top: 1px solid #000;
+}
+
+.three_box_1 {
+	width: 1600px;
+	height: 570px;
+	background-image: url('../img/education/educationBanner.png');
+	margin-top: 119px;
+	position: relative;
+}
+
+.jiazhi {
+	width: 328px;
+	height: 39px;
+	background-color: #ffffff;
+	opacity: 0.75;
+	text-align: center;
+	font-size: 22px;
+	color: #14abce;
+	position: absolute;
+	top: 123px;
+	left: 1039px;
+}
+
+.three_box_1 span {
+	font-size: 27px;
+}
+
+.fuhe {
+	width: 328px;
+	height: 39px;
+	background-color: #ffffff;
+	opacity: 0.75;
+	text-align: center;
+	font-size: 22px;
+	color: #cf3443;
+	position: absolute;
+	top: 159px;
+	left: 1098px;
+	margin-top: 5px;
+}
+
+.kexue {
+	width: 328px;
+	height: 39px;
+	background-color: #ffffff;
+	opacity: 0.75;
+	text-align: center;
+	font-size: 22px;
+	color: #137bac;
+	position: absolute;
+	top: 200px;
+	left: 1098px;
+	margin-top: 5px;
+}
+
+.wanshan {
+	width: 328px;
+	height: 39px;
+	background-color: #ffffff;
+	opacity: 0.75;
+	text-align: center;
+	font-size: 22px;
+	color: #c98900;
+	position: absolute;
+	top: 240px;
+	left: 1000px;
+	margin-top: 5px;
+}
+
+.koubei {
+	width: 328px;
+	height: 39px;
+	background-color: #ffffff;
+	opacity: 0.75;
+	text-align: center;
+	font-size: 22px;
+	color: #000;
+	position: absolute;
+	top: 281px;
+	left: 1052px;
+	margin-top: 5px;
+}
+
+.three_box_2 {
+	width: 1600px;
+	height: 566px;
+	/* border: 1px solid red; */
+	background-image: url('../img/education/jieshao.png');
+}
+
+.muoshi {
+	width: 168px;
+	height: 24px;
+	font-size: 24px;
+	line-height: 30px;
+	letter-spacing: 0px;
+	color: #067fb7;
+	padding-top: 35px;
+}
+
+.jiuye {
+	width: 296px;
+	height: 45px;
+	font-size: 18px;
+	line-height: 45px;
+	color: #9c9c9c;
+	border: 1px solid #9c9c9c;
+	text-align: center;
+	margin-top: 19px;
+}
+
+.hz {
+	width: 1193px;
+	height: 76px;
+	font-size: 14px;
+	line-height: 31px;
+	letter-spacing: 0px;
+	color: #686868;
+	margin-top: 38px;
+}
+.diannao {
+	width: 436px;
+	height: 312px;
+	/* border: 1px solid red; */
+	margin-top: 10px;
+	background-color: #f2f2f2;
+}
+.diannao img{
+	width: 436px;
+	height: 312px;
+}
